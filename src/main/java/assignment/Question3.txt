@@ -1,0 +1,5 @@
+Element is not clickable is a most popular selenium webdriver exception we may get this kind of exception due to many scenarois. There are may ways to approach this kind of problems.
+
+1) Using Explicit wait to include a condition to wait untill the WebElement object is clickable (ExpectedConditions.elementToBeClickable())
+2) Using Action class to move to a specific element and perform click operation
+3) Just like handling the shadow element, we can also treat this issue and perform click using JavascriptExecutor 
